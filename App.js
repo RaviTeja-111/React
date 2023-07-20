@@ -19,7 +19,7 @@ function App() {
   // const [inputExp, setInputExp] = useState(() =>{
   //   const storedData = JSON.parse(localStorage.getItem(keyIs));
   //   return storedData ? storedData : dummyExpenses;
-  // });
+  // }); another way to set data
 
   const [inputExp, setInputExp] = useState(() => {
     const storedData = JSON.parse(localStorage.getItem(keyIs));
@@ -48,7 +48,7 @@ function App() {
     setInputExp(updatedExpenses);
     localStorage.setItem(keyIs, JSON.stringify(updatedExpenses));
   }
-  const titleHandler =(updatedExpenses)=>{
+  const titleHandler =(updatedExpenses)=>{  
     setInputExp(updatedExpenses);
     localStorage.setItem(keyIs, JSON.stringify(updatedExpenses));
   }
