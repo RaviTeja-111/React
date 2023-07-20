@@ -3,6 +3,7 @@ import './App.scss';
 import Expenses from './CustomComponents/Expenses';
 import NewExpense from './InputsThroughForms/NewExpense';
 
+// A list all the expenses in a year
 
 const keyIs = 'inputs';
 
