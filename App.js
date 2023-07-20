@@ -5,7 +5,7 @@ import NewExpense from './InputsThroughForms/NewExpense';
 
 // A list all the expenses in a year
 
-const keyIs = 'inputs';
+const keyIs = 'inputs';  // for storing keys
 
 function App() {
 
